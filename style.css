@@ -131,3 +131,36 @@ body{
 }
 
 /* end quote */
+
+/* about */
+.about {
+    margin:100 10% ;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    border-radius: 20px;
+}
+.about {
+    color: #e5e7eb;
+}
+.about h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+}
+.about p {
+    font-size: 18px;
+    margin: 0;
+}
+.about button {
+    border: 2px white solid;
+    background-color:#3882f6 ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: inherit;
+    font-size: 24px;
+    font-weight: 800;
+}
+/* end about */
