@@ -21,20 +21,29 @@ body{
 .header-right ul{
     display: flex;
     list-style: none;
-    gap: 24px;
+    gap: 48px;
     padding: 0;
     margin: 0;
    
 }   
 .header-right a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 24px;
     color: #e5e7eb;
 }
 .header-left {
     font-size: 24px;
     color: #f9faf8;
+    display: flex;
+    align-items: center;
 
+}
+.header-left i {
+    color: #e5e7eb;
+    margin-right: 20px;
+}
+.header-left h3 {
+    margin: 0;
 }
 
 /* end header */
