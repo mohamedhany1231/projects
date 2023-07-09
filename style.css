@@ -164,3 +164,17 @@ body{
     font-weight: 800;
 }
 /* end about */
+
+/* footer */
+.footer {
+    background-color: #1f2937;
+    padding: 30px 30%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p span {
+    font-weight: 700;
+}
+/* end footer */
