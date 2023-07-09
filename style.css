@@ -1,5 +1,6 @@
 html {
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family:'Times New Roman', Times, serif;
+   
 }
 
 body{
@@ -35,9 +36,7 @@ body{
     color: #f9faf8;
 
 }
-.header-right{
 
-}
 /* end header */
 
 /* home */
@@ -74,4 +73,61 @@ body{
     border-radius: 10%;
 }
 
+
 /* end home */
+
+/* start info */
+    .info {
+        padding: 100 15%;
+        text-align: center;
+    }
+    .info h2 {
+        font-size: 36px;
+        font-weight: 800;
+        color: #1f2937;
+    }
+    .info-images {
+        display: flex;
+        padding: 50px 0;
+        align-items: center;
+        gap : 30px
+    }
+    .info-images .img {
+        border: #3882f6 solid 5px;
+        height: 180px;
+        width: 160px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .info-images p {
+        font-size: 18px;
+        color: #1f2937;
+    }
+
+/* end info */
+
+/* quote  */
+.quote {
+    background-color: #e5e7eb;
+    padding: 100 15%;
+    
+}
+.quote p {
+    color: #1f2937;
+    margin: 0;
+    font-size: 36px;
+   
+}
+.quote p.text {
+    
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote p.author {
+    text-align: end;
+    color: #1f2937;
+    font-weight: 700;
+
+}
+
+/* end quote */
